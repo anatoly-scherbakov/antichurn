@@ -8,29 +8,32 @@
 Help to make hard decisions with multiple choices
 
 
-## Features
+## Motivation
 
-- Fully typed with annotations and checked with mypy, [PEP561 compatible](https://www.python.org/dev/peps/pep-0561/)
-- Add yours!
+Suppose you have a decision to make that involves multiple variables, and each of those variables can have one of multiple choices.
 
-
-## Installation
+- Write down your options for each in a YAML file, just as in [choices.yaml](choices.yaml).
+- Generate all possible combinations of your choices like this:
 
 ```bash
-pip install antichurn
+cat choices.yaml | python run.py > choices.csv 
 ```
 
+- Import your CSV file into Airtable (or another spreadsheet editor, but let's focus on Airtable now)
+- Change the type of all the columns to Single Select
+- Add two more columns: **Status** and (optionally) **Note**.
+- Then, engage your thought process. Exclude the combinations that, due to various reasons, are unacceptable, - and whatever is left is indubitably the solution.
 
-## Example
+Or a few solutions, which you probably need more research on to choose.
 
-Showcase how your project can be used:
+I will work to further automate and streamline this process.
 
-```python
-from antichurn.example import some_function
+## Literature
 
-print(some_function(3, 4))
-# => 7
-```
+- I've read a book on logical and mathematical puzzles in my childhood, the name of which I do not recall, but it had quite a few puzzles like this
+- There is a Theory for solving innovation problems which might have tools like this one 
+
+And I've left a note on Notion about this, but it's in Russian and will only be public if I make it looking nice enough: [Salvation from the combinatoric explosion](https://www.notion.so/2c7c252780ab4e8ca8d21bee1fbb8304). I am adding the link for my own reference only. 
 
 ## License
 
