@@ -90,7 +90,7 @@ version = "7.1.1"
 [[package]]
 category = "dev"
 description = "Cross-platform colored terminal text."
-marker = "sys_platform == \"win32\" or platform_system == \"Windows\""
+marker = "platform_system == \"Windows\" or sys_platform == \"win32\""
 name = "colorama"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
@@ -768,7 +768,7 @@ python-versions = "*"
 version = "2019.3"
 
 [[package]]
-category = "dev"
+category = "main"
 description = "YAML parser and emitter for Python"
 name = "pyyaml"
 optional = false
@@ -1127,7 +1127,7 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["jaraco.itertools", "func-timeout"]
 
 [metadata]
-content-hash = "a3a6a8ffbf71f8357ce90e106dbf7a6bdeebc313663c9f56bc88b26a87346309"
+content-hash = "4ff86d8a4f076fef14153926b4fe06d8ebc6d581235f2f32ca9166742a88082e"
 python-versions = "^3.6"
 
 [metadata.files]
