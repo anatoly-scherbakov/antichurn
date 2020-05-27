@@ -1,0 +1,17 @@
+Raw Data:
+  - Delta files
+  - Full dump
+Vendor puts data:
+  - Their FTP
+  - Our S3
+Database:
+  - Redshift
+  - AVO
+  - PostgreSQL
+  - Elasticsearch
+Import into DB:
+  - Lambda
+  - EC2
+Map counts:
+  - Precompiled
+  - Real time

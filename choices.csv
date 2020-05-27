@@ -1,0 +1,65 @@
+id,Raw Data,Vendor puts data,Database,Import into DB,Map counts
+1,Delta files,Their FTP,Redshift,Lambda,Precompiled
+2,Delta files,Their FTP,Redshift,Lambda,Real time
+3,Delta files,Their FTP,Redshift,EC2,Precompiled
+4,Delta files,Their FTP,Redshift,EC2,Real time
+5,Delta files,Their FTP,AVO,Lambda,Precompiled
+6,Delta files,Their FTP,AVO,Lambda,Real time
+7,Delta files,Their FTP,AVO,EC2,Precompiled
+8,Delta files,Their FTP,AVO,EC2,Real time
+9,Delta files,Their FTP,PostgreSQL,Lambda,Precompiled
+10,Delta files,Their FTP,PostgreSQL,Lambda,Real time
+11,Delta files,Their FTP,PostgreSQL,EC2,Precompiled
+12,Delta files,Their FTP,PostgreSQL,EC2,Real time
+13,Delta files,Their FTP,Elasticsearch,Lambda,Precompiled
+14,Delta files,Their FTP,Elasticsearch,Lambda,Real time
+15,Delta files,Their FTP,Elasticsearch,EC2,Precompiled
+16,Delta files,Their FTP,Elasticsearch,EC2,Real time
+17,Delta files,Our S3,Redshift,Lambda,Precompiled
+18,Delta files,Our S3,Redshift,Lambda,Real time
+19,Delta files,Our S3,Redshift,EC2,Precompiled
+20,Delta files,Our S3,Redshift,EC2,Real time
+21,Delta files,Our S3,AVO,Lambda,Precompiled
+22,Delta files,Our S3,AVO,Lambda,Real time
+23,Delta files,Our S3,AVO,EC2,Precompiled
+24,Delta files,Our S3,AVO,EC2,Real time
+25,Delta files,Our S3,PostgreSQL,Lambda,Precompiled
+26,Delta files,Our S3,PostgreSQL,Lambda,Real time
+27,Delta files,Our S3,PostgreSQL,EC2,Precompiled
+28,Delta files,Our S3,PostgreSQL,EC2,Real time
+29,Delta files,Our S3,Elasticsearch,Lambda,Precompiled
+30,Delta files,Our S3,Elasticsearch,Lambda,Real time
+31,Delta files,Our S3,Elasticsearch,EC2,Precompiled
+32,Delta files,Our S3,Elasticsearch,EC2,Real time
+33,Full dump,Their FTP,Redshift,Lambda,Precompiled
+34,Full dump,Their FTP,Redshift,Lambda,Real time
+35,Full dump,Their FTP,Redshift,EC2,Precompiled
+36,Full dump,Their FTP,Redshift,EC2,Real time
+37,Full dump,Their FTP,AVO,Lambda,Precompiled
+38,Full dump,Their FTP,AVO,Lambda,Real time
+39,Full dump,Their FTP,AVO,EC2,Precompiled
+40,Full dump,Their FTP,AVO,EC2,Real time
+41,Full dump,Their FTP,PostgreSQL,Lambda,Precompiled
+42,Full dump,Their FTP,PostgreSQL,Lambda,Real time
+43,Full dump,Their FTP,PostgreSQL,EC2,Precompiled
+44,Full dump,Their FTP,PostgreSQL,EC2,Real time
+45,Full dump,Their FTP,Elasticsearch,Lambda,Precompiled
+46,Full dump,Their FTP,Elasticsearch,Lambda,Real time
+47,Full dump,Their FTP,Elasticsearch,EC2,Precompiled
+48,Full dump,Their FTP,Elasticsearch,EC2,Real time
+49,Full dump,Our S3,Redshift,Lambda,Precompiled
+50,Full dump,Our S3,Redshift,Lambda,Real time
+51,Full dump,Our S3,Redshift,EC2,Precompiled
+52,Full dump,Our S3,Redshift,EC2,Real time
+53,Full dump,Our S3,AVO,Lambda,Precompiled
+54,Full dump,Our S3,AVO,Lambda,Real time
+55,Full dump,Our S3,AVO,EC2,Precompiled
+56,Full dump,Our S3,AVO,EC2,Real time
+57,Full dump,Our S3,PostgreSQL,Lambda,Precompiled
+58,Full dump,Our S3,PostgreSQL,Lambda,Real time
+59,Full dump,Our S3,PostgreSQL,EC2,Precompiled
+60,Full dump,Our S3,PostgreSQL,EC2,Real time
+61,Full dump,Our S3,Elasticsearch,Lambda,Precompiled
+62,Full dump,Our S3,Elasticsearch,Lambda,Real time
+63,Full dump,Our S3,Elasticsearch,EC2,Precompiled
+64,Full dump,Our S3,Elasticsearch,EC2,Real time
